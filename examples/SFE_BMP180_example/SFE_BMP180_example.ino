@@ -1,6 +1,6 @@
-/* SFE_BMP180 library example sketch
+/* BMP180 library example sketch
 
-This sketch shows how to use the SFE_BMP180 library to read the
+This sketch shows how to use the BMP180 library to read the
 Bosch BMP180 barometric pressure sensor.
 https://www.sparkfun.com/products/11824
 
@@ -48,7 +48,7 @@ the BMP180 to systems with lower logic levels such as 1.8V
 
 Have fun! -Your friends at SparkFun.
 
-The SFE_BMP180 library uses floating-point equations developed by the
+The BMP180 library uses floating-point equations developed by the
 Weather Station Data Logger project: http://wmrx00.sourceforge.net/
 
 Our example code uses the "beerware" license. You can do anything
@@ -62,12 +62,12 @@ V1.1.2 Updates for Arduino 1.6.4 5/2015
 // Your sketch must #include this library, and the Wire library.
 // (Wire is a standard library included with Arduino.):
 
-#include <SFE_BMP180.h>
+#include <SparkFunBMP180.h>
 #include <Wire.h>
 
-// You will need to create an SFE_BMP180 object, here called "pressure":
+// You will need to create an BMP180 object, here called "pressure":
 
-SFE_BMP180 pressure;
+BMP180 pressure;
 
 #define ALTITUDE 1655.0 // Altitude of SparkFun's HQ in Boulder, CO. in meters
 
